@@ -15,7 +15,7 @@ if is_admin():
         with open(path_to_hosts,"r") as res:
             lines=res.readlines()
             for ln in lines:
-                print(ln)   # Code of your program here
+                print(ln)
 else:
     # Re-run the program with admin rights
     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
