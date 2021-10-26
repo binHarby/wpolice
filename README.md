@@ -4,6 +4,8 @@ This CLI blocks and unblocks sites through the terminal
 
 
 ## To Block
+
+### Windows
 ```powershell
 
 python wpolice.py -b [website-link-no-https://]
@@ -18,15 +20,31 @@ python wpolice.py -b web.whatsapp.com
 ```powershell
 python wpolice.py -b www.youtube.com
 ```
+
+### macos/linux
+```powershell
+
+./wpolice.py -b [website-link-no-https://]
+
+```
+
+#### Examples
+
+```powershell
+./wpolice.py -b web.whatsapp.com
+```
+```powershell
+./wpolice.py -b www.youtube.com
+```
 ## To Unblock
 
 ```powershell
 
-python wpolice.py -u [website-name]
+./wpolice.py -u [website-name]
 
 ```
 #### Examples
 
 ```powershell
-python wpolice.py -u whatsapp
+./wpolice.py -u whatsapp
 ```
