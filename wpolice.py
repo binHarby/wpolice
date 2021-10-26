@@ -1,3 +1,4 @@
+#!usr/bin/env python
 import ctypes, sys
 import os
 import platform
