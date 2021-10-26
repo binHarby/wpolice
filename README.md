@@ -21,7 +21,7 @@ python wpolice.py -b web.whatsapp.com
 python wpolice.py -b www.youtube.com
 ```
 
-### macos/linux
+### Macos/Linux
 ```powershell
 
 ./wpolice.py -b [website-link-no-https://]
@@ -38,6 +38,18 @@ python wpolice.py -b www.youtube.com
 ```
 ## To Unblock
 
+### Windows
+```powershell
+
+python wpolice.py -u [website-name]
+
+```
+#### Examples
+
+```powershell
+python wpolice.py -u whatsapp
+```
+### Macos/Linux
 ```powershell
 
 ./wpolice.py -u [website-name]
